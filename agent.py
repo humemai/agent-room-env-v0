@@ -1,8 +1,8 @@
 import random
 from itertools import count
 
-from explicit_memory.memory import EpisodicMemory, SemanticMemory
-from explicit_memory.utils import argmax, seed_everything
+from humemai.memory import EpisodicMemory, SemanticMemory
+from humemai.utils import argmax, seed_everything
 
 
 class HandcraftedAgent:
@@ -26,7 +26,8 @@ class HandcraftedAgent:
 
         Args:
             seed: random seed
-            agent_type: episodic, semantic, episodic_semantic, or episodic_semantic_pretrain
+            agent_type: episodic, semantic, episodic_semantic, or
+                episodic_semantic_pretrain
             forget_policy: see the code
             answer_policy: see the code
             episodic_capacity: number of memories the episodic memory system can have.

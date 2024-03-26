@@ -10,10 +10,10 @@ import gymnasium as gym
 import matplotlib.pyplot as plt
 import numpy as np
 import yaml
-from agent import HandcraftedAgent
+from humemai.utils import is_running_notebook
 from tqdm import tqdm
 
-from explicit_memory.utils import is_running_notebook
+from agent import HandcraftedAgent
 
 is_notebook = is_running_notebook()
 
