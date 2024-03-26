@@ -92,6 +92,11 @@ and answer uniform-randomly.
 The multiple agent policies work in the same manner as the single agent policies, except
 that they can use their combined memory systems to answer questions.
 
+## pdoc documentation
+
+Click on [this link](https://humemai.github.io/agent-room-env-v0) to see the HTML rendered
+docstrings
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn,
