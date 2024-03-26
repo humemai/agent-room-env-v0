@@ -40,10 +40,9 @@ be saved in [`./figures`](./figures).
 | :---------------------------------------------------------------------------------: |
 |                       ![](./figures/best-strategies-1-v0.png)                       |
 
-| Total rewards with respect to the number of agents. The lighter and narrower bars
-account for the single agent. | |
-:-------------------------------------------------------------------------------------------------------------:
-| | ![](./figures/single-and-double-agents-v0.png) |
+| Total rewards with respect to the number of agents. The lighter and narrower bars account for the single agent. |
+| :-------------------------------------------------------------------------------------------------------------: |
+|                                 ![](./figures/single-and-double-agents-v0.png)                                  |
 
 ## Heuristics
 
