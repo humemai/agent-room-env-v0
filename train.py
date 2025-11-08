@@ -10,7 +10,7 @@ import gymnasium as gym
 import matplotlib.pyplot as plt
 import numpy as np
 import yaml
-from humemai.utils import is_running_notebook
+from humemai_research.utils import is_running_notebook
 from tqdm import tqdm
 
 from agent import HandcraftedAgent

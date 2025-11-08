@@ -1,8 +1,8 @@
 import random
 from itertools import count
 
-from humemai.memory import EpisodicMemory, SemanticMemory
-from humemai.utils import argmax, seed_everything
+from humemai_research.memory import EpisodicMemory, SemanticMemory
+from humemai_research.utils import argmax, seed_everything
 
 
 class HandcraftedAgent:
